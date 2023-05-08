@@ -1,7 +1,7 @@
 import openai
 
 # Adicione sua chave de API aqui
-openai.api_key = "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"
+openai.api_key = "INSERT API HERE"
 
 def generate_text(prompt):
     completions = openai.Completion.create(
